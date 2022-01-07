@@ -62,6 +62,14 @@ Let’s figure out the reason why React has become the number one framework.
 ## Backend
 
 - Use python virtual environment (3.9.4)
+```bash
+// create and activate python virtual environment
+backend$ python3.9 -m venv venv
+backend$ source venv/bin/activate
+backend$ export PYTHONPATH=$PWD
+// run the backend server
+(venv)$ python main.py
+```
 - We need to use [CORSMiddleware](https://fastapi.tiangolo.com/tutorial/cors/).
     
     > CORS refers to the situation when a frontend running in a browser has JavaScript code that communicates with a backend, and the backend is in a different “origin” than the frontend.
@@ -78,3 +86,11 @@ Let’s figure out the reason why React has become the number one framework.
 - UI component library: [Charkra UI](http://chakra-ui.com/)
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React Context API](https://reactjs.org/docs/context.html) : This is not “state management” tool. ([Why React Context is Not a “State Management” Tool, and why it doesn’t replace Redux.](https://blog.isquaredsoftware.com/2021/01/context-redux-differences/))
+---
+
+## Version Update (v1.2)
+
+![](preview1.2.gif)
+- Added `index.css` and changed Interface design.
+- Install `react-icons` and use font-awesome icons.
+- Add `reminder` function to add left side green bar.

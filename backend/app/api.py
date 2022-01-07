@@ -11,11 +11,13 @@ origins = [
 todos = [
     {
         "id": "1",
-        "item": "Read a book."
+        "item": "Read a book.",
+        "reminder": False
     },
     {
         "id": "2",
-        "item": "Cycle around town."
+        "item": "Cycle around town.",
+        "reminder": False
     }
 ]
 
